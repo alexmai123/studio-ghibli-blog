@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Studio Ghibli Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main role="main" class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Studio Ghibli Gallery</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active" id="home"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li id="Login"><a href="/login">Log in</a></li>
+        <li class="dropdown" id="Account">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/favourite">Favourite</a></li>
+            <li><a href="/logout">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+
+      <div class="firstblock">
+      <div class="movie">
+         <div class="movie1">
+            <img class="poster" id="p1" src="img/CITS.jpg" alt="Castle In the Sky"></img>
+            <p class="text">Castle In the sky
+            <strong class="rate" id="rate1"></strong>
+            </p>
+            <div class="information" id="information1">
+              <strong class="t1" id="de1">Description: </strong>
+              <p class="description" id="description1">
+              </p>
+              <strong class="t1" id="di1">Director: </strong>
+              <p class="director" id="director1">
+              </p>
+              <strong class="t1" id="da1">Date: </strong>
+              <p class="date" id="date1"></p>
+              <button href="#" class="favourite" id="c1" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="movie">
+         <div class="movie2">
+          <img class="poster" id="p2" src="img/GOFF.jpg" alt="Grave of the Fireflies"></img>
+            <p class="text">Grave of the Fireflies
+              <strong class="rate" id="rate2"></strong>
+            </p>
+            <div class="information" id="information2">
+              <strong class="t2" id="de2">Description: </strong>
+              <p class="description" id="description2">
+              </p>
+              <strong class="t2" id="di2">Director: </strong>
+              <p class="director" id="director2">
+              </p>
+              <strong class="t2" id="da2">Date: </strong>
+              <p class="date" id="date2"></p>
+              <button href="#" class="favourite" id="c2" data-toggle="popover" data-trigger="click">
+              favourite
+              </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie3">
+          <img class="poster"  id="p3" src="img/HMC.jpg" alt="Howl's Moving Castle"></img>
+            <p class="text">Howl's Moving Castle
+              <strong class="rate" id="rate3"></strong>
+            </p>
+            <div class="information" id="information3">
+              <strong class="t3" id="de3">Description: </strong>
+              <p class="description" id="description3">
+              </p>
+              <strong class="t3" id="di3">Director: </strong>
+              <p class="director" id="director3">
+              </p>
+              <strong class="t3" id="da3">Date: </strong>
+              <p class="date" id="date3"></p>
+               <button href="#" class="favourite" id="c3" data-toggle="popover" data-trigger="click">
+              favourite
+              </button>
+            </div>
+         </div> 
+      </div>
+      </div>
+
+      <div class="secondblock">
+      <div class="movie">
+         <div class="movie4">
+            <img class="poster" id="p4" src="img/TWR.jpg" alt="The wind rises"></img>
+            <p class="text">The Wind Rises
+            <strong class="rate" id="rate4"></strong>
+            </p>
+            <div class="information" id="information4">
+              <strong class="t4" id="de4">Description: </strong>
+              <p class="description" id="description4">
+              </p>
+              <strong class="t4" id="di4">Director: </strong>
+              <p class="director" id="director4">
+              </p>
+              <strong class="t4" id="da4">Date: </strong>
+              <p class="date" id="date4"></p>
+              <button href="#" class="favourite" id="c4" data-toggle="popover" data-trigger="click">
+              favourite
+              </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie5">
+            <img class="poster" id="p5" src="img/MNT.jpg" alt="My neighbour Totoro"></img>
+            <p class="text">My Neighbour Totoro
+            <strong class="rate" id="rate5"></strong>
+            </p>
+            <div class="information" id="information5">
+              <strong class="t5" id="de5">Description: </strong>
+              <p class="description" id="description5">
+              </p>
+              <strong class="t5" id="di5">Director: </strong>
+              <p class="director" id="director5">
+              </p>
+              <strong class="t5" id="da5">Date: </strong>
+              <p class="date" id="date5"></p>
+              <button href="#" class="favourite" id="c5" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie6">
+            <img class="poster" id="p6" src="img/KDS.jpg" alt="Kiki's Delivery Service"></img>
+            <p class="text">Kiki's Delivery Service
+            <strong class="rate" id="rate6"></strong>
+            </p>
+            <div class="information" id="information6">
+              <strong class="t6" id="de6">Description: </strong>
+              <p class="description" id="description6">
+              </p>
+              <strong class="t6" id="di6">Director: </strong>
+              <p class="director" id="director6">
+              </p>
+              <strong class="t6" id="da6">Date: </strong>
+              <p class="date" id="date6"></p>
+              <button href="#" class="favourite" id="c6" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+      </div>
+
+      <div class="thirdblock">
+      <div class="movie">
+         <div class="movie7">
+            <img class="poster" id="p7" src="img/OY.jpg" alt="Only Yesterday"></img>
+            <p class="text">Only Yesterday
+            <strong class="rate" id="rate7"></strong>
+            </p>
+            <div class="information" id="information7">
+              <strong class="t7" id="de7">Description: </strong>
+              <p class="description" id="description7">
+              </p>
+              <strong class="t7" id="di7">Director: </strong>
+              <p class="director" id="director7">
+              </p>
+              <strong class="t7" id="da7">Date: </strong>
+              <p class="date" id="date7"></p>
+              <button href="#" class="favourite" id="c7" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie8">
+            <img class="poster" id="p8" src="img/PR.jpg" alt="Porco Rosso"></img>
+            <p class="text">Porco Rosso
+            <strong class="rate" id="rate8"></strong>
+            </p>
+            <div class="information" id="information8">
+              <strong class="t8" id="de8">Description: </strong>
+              <p class="description" id="description8">
+              </p>
+              <strong class="t8" id="di8">Director: </strong>
+              <p class="director" id="director8">
+              </p>
+              <strong class="t8" id="da8">Date: </strong>
+              <p class="date" id="date8"></p>
+              <button href="#" class="favourite" id="c8" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie9">
+            <img class="poster" id="p9" src="img/WOTH.jpg" alt="Whisper of the Heart"></img>
+            <p class="text">Whisper of The Heart
+            <strong class="rate" id="rate9"></strong>
+            </p>
+            <div class="information" id="information9">
+              <strong class="t9" id="de9">Description: </strong>
+              <p class="description" id="description9">
+              </p>
+              <strong class="t9" id="di9">Director: </strong>
+              <p class="director" id="director9">
+              </p>
+              <strong class="t9" id="da9">Date: </strong>
+              <p class="date" id="date9"></p>
+              <button href="#" class="favourite" id="c9" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+      </div>
+
+      <div class="fourthblock">
+      <div class="movie">
+         <div class="movie10">
+            <img class="poster" id="p10" src="img/PM.jpg" alt="Princess Mononoke"></img>
+            <p class="text">Princess Mononoke
+            <strong class="rate" id="rate10"></strong>
+            </p>
+            <div class="information" id="information10">
+              <strong class="t10" id="de10">Description: </strong>
+              <p class="description" id="description10">
+              </p>
+              <strong class="t10" id="di10">Director: </strong>
+              <p class="director" id="director10">
+              </p>
+              <strong class="t10" id="da10">Date: </strong>
+              <p class="date" id="date10"></p>
+              <button href="#" class="favourite" id="c10" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+
+      <div class="movie">
+         <div class="movie11">
+            <img class="poster" id="p11" src="img/SA.jpg" alt="Spirited Away"></img>
+            <p class="text">Spirited Away
+            <strong class="rate" id="rate11"></strong>
+            </p>
+            <div class="information" id="information11">
+              <strong class="t11" id="de11">Description: </strong>
+              <p class="description" id="description11">
+              </p>
+              <strong class="t11" id="di11">Director: </strong>
+              <p class="director" id="director11">
+              </p>
+              <strong class="t11" id="da11">Date: </strong>
+              <p class="date" id="date11"></p>
+              <button href="#" class="favourite" id="c11" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie12">
+            <img class="poster" id="p12" src="img/CR.jpg" alt="The cat return"></img>
+            <p class="text">The Cat Return
+            <strong class="rate" id="rate12"></strong>
+            </p>
+            <div class="information" id="information12">
+              <strong class="t12" id="de12">Description: </strong>
+              <p class="description" id="description12">
+              </p>
+              <strong class="t12" id="di12">Director: </strong>
+              <p class="director" id="director12">
+              </p>
+              <strong class="t12" id="da12">Date: </strong>
+              <p class="date" id="date12"></p>
+              <button href="#" class="favourite" id="c12" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+      </div>
+
+
+      <div class="fifthblock">
+      <div class="movie">
+         <div class="movie13">
+            <img class="poster" id="p13" src="img/TFE.jpg" alt="Tales from Earthsea"></img>
+            <p class="text">Tales from Earthsea
+            <strong class="rate" id="rate13"></strong>
+            </p>
+            <div class="information" id="information13">
+              <strong class="t13" id="de13">Description: </strong>
+              <p class="description" id="description13">
+              </p>
+              <strong class="t13" id="di13">Director: </strong>
+              <p class="director" id="director13">
+              </p>
+              <strong class="t13" id="da13">Date: </strong>
+              <p class="date" id="date13"></p>
+              <button href="#" class="favourite" id="c13" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie14">
+            <img class="poster" id="p14" src="img/PONYO.jpg" alt="Ponyo"></img>
+            <p class="text">Ponyo
+            <strong class="rate" id="rate14"></strong>
+            </p>
+            <div class="information" id="information14">
+              <strong class="t14" id="de14">Description: </strong>
+              <p class="description" id="description14">
+              </p>
+              <strong class="t14" id="di14">Director: </strong>
+              <p class="director" id="director14">
+              </p>
+              <strong class="t14" id="da14">Date: </strong>
+              <p class="date" id="date14"></p>
+              <button href="#" class="favourite" id="c14" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie15">
+            <img class="poster" id="p15" src="img/KNA.png" alt="Arrietty"></img>
+            <p class="text">Arrietty
+            <strong class="rate" id="rate15"></strong>
+            </p>
+            <div class="information" id="information15">
+              <strong class="t15" id="de15">Description: </strong>
+              <p class="description" id="description15">
+              </p>
+              <strong class="t15" id="di15">Director: </strong>
+              <p class="director" id="director15">
+              </p>
+              <strong class="t15" id="da15">Date: </strong>
+              <p class="date" id="date15"></p>
+            </div>
+            <button href="#" class="favourite" id="c15" data-toggle="popover" data-trigger="click">
+            favourite
+            </button>
+          </div> 
+      </div>
+      </div>
+
+      <div class="sixthblock">
+      <div class="movie">
+         <div class="movie16">
+            <img class="poster" id="p16" src="img/FUOPH.jpg" alt="From up on poppy hill"></img>
+            <p class="text">From Up On Poppy Hill
+            <strong class="rate" id="rate16"></strong>
+            </p>
+            <div class="information" id="information16">
+              <strong class="t16" id="de16">Description: </strong>
+              <p class="description" id="description16">
+              </p>
+              <strong class="t16" id="di16">Director: </strong>
+              <p class="director" id="director16">
+              </p>
+              <strong class="t16" id="da16">Date: </strong>
+              <p class="date" id="date16"></p>
+              <button href="#" class="favourite" id="c16" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie17">
+            <img class="poster" id="p17" src="img/WMWT.jpg" alt="When Marnie Was There"></img>
+            <p class="text">When Marnie Was There
+            <strong class="rate" id="rate17"></strong>
+            </p>
+            <div class="information" id="information17">
+              <strong class="t17" id="de17">Description: </strong>
+              <p class="description" id="description17">
+              </p>
+              <strong class="t17" id="di17">Director: </strong>
+              <p class="director" id="director17">
+              </p>
+              <strong class="t17" id="da17">Date: </strong>
+              <p class="date" id="date17"></p>
+              <button href="#" class="favourite" id="c17" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+
+      <div class="movie">
+         <div class="movie18">
+            <img class="poster" id="p18" src="img/TTOTPK.jpg" alt="The Tale of the Princess Kaguya"></img>
+            <p class="text">The Tale of the Princess Kaguya
+            <strong class="rate" id="rate18"></strong>
+            </p>
+            <div class="information" id="information18">
+              <strong class="t18" id="de18">Description: </strong>
+              <p class="description" id="description18">
+              </p>
+              <strong class="t18" id="di18">Director: </strong>
+              <p class="director" id="director18">
+              </p>
+              <strong class="t18" id="da18">Date: </strong>
+              <p class="date" id="date18"></p>
+              <button href="#" class="favourite" id="c18" data-toggle="popover" data-trigger="click">
+              favourite
+            </button>
+            </div>
+         </div> 
+      </div>
+      </div>
+
+    </main><!-- /.container -->
+<script>
+
+  $("#p1").click(function(){
+    if (($(".t1").css("display") == "none")){
+    $(".t1").css("display", "block");
+    $(".firstblock").css("height", "900px");
+    $(".favourite#c1").css("display", "flex");
+    $("#information1").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "2baf70d1-42bb-4437-b551-e5fed5a87abe")
+                        getOneAttributeFromItem(r, 'description', '#description1')
+                        getOneAttributeFromItem(r, 'release_date', '#date1')
+                        getOneAttributeFromItem(r, 'director', '#director1')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate1')
+                    }
+                });
+  }
+  else {
+    if (($(".t2").css("display") == "none") && ($(".t3").css("display") == "none")){
+      $(".t1").css("display", "none");
+      $("#information1").css("display", "none");
+      $(".firstblock").css("height", "500px");
+    }
+    else{
+      $(".t1").css("display", "none");
+      $("#information1").css("display", "none");
+    }
+  }
+  });
+
+
+  $("#p2").click(function(){
+    if (($(".t2").css("display") == "none")){
+    $(".t2").css("display", "block");
+    $(".firstblock").css("height", "900px");
+    $(".favourite#c2").css("display", "flex");
+    $("#information2").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "12cfb892-aac0-4c5b-94af-521852e46d6a")
+                        getOneAttributeFromItem(r, 'description', '#description2')
+                        getOneAttributeFromItem(r, 'release_date', '#date2')
+                        getOneAttributeFromItem(r, 'director', '#director2')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate2')
+                    }
+                });
+    }
+    else {
+    if (($(".t1").css("display") == "none") && ($(".t3").css("display") == "none")){
+      $(".t2").css("display", "none");
+      $("#information2").css("display", "none");
+      $(".firstblock").css("height", "500px");
+    }
+    else{
+      $(".t2").css("display", "none");
+      $("#information2").css("display", "none");
+    }
+  }
+  })
+
+  $("#p3").click(function(){
+    if (($(".t3").css("display") == "none")){
+    $(".t3").css("display", "block");
+    $(".firstblock").css("height", "900px");
+    $(".favourite#c3").css("display", "flex");
+    $("#information3").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "cd3d059c-09f4-4ff3-8d63-bc765a5184fa")
+                        getOneAttributeFromItem(r, 'description', '#description3')
+                        getOneAttributeFromItem(r, 'release_date', '#date3')
+                        getOneAttributeFromItem(r, 'director', '#director3')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate3')
+                    }
+                });
+    }else {
+    if (($(".t1").css("display") == "none") && ($(".t2").css("display") == "none")){
+      $(".t3").css("display", "none");
+      $("#information3").css("display", "none");
+      $(".firstblock").css("height", "500px");
+    }
+    else{
+      $(".t3").css("display", "none");
+      $("#information3").css("display", "none");
+    }
+  }
+  })
+
+  $("#p4").click(function(){
+    if (($(".t4").css("display") == "none")){
+    $(".t4").css("display", "block");
+    $(".secondblock").css("height", "850px");
+    $(".favourite#c4").css("display", "flex");
+    $("#information4").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "67405111-37a5-438f-81cc-4666af60c800")
+                        getOneAttributeFromItem(r, 'description', '#description4')
+                        getOneAttributeFromItem(r, 'release_date', '#date4')
+                        getOneAttributeFromItem(r, 'director', '#director4')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate4')
+                    }
+                });
+    }else {
+    if (($(".t5").css("display") == "none") && ($(".t6").css("display") == "none")){
+      $(".t4").css("display", "none");
+      $("#information4").css("display", "none");
+      $(".secondblock").css("height", "500px");
+    }
+    else{
+      $(".t4").css("display", "none");
+      $("#information4").css("display", "none");
+    }
+  }
+  })
+
+  $("#p5").click(function(){
+    if (($(".t5").css("display") == "none")){
+    $(".t5").css("display", "block");
+    $(".secondblock").css("height", "850px");
+    $(".favourite#c5").css("display", "flex");
+    $("#information5").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "58611129-2dbc-4a81-a72f-77ddfc1b1b49")
+                        getOneAttributeFromItem(r, 'description', '#description5')
+                        getOneAttributeFromItem(r, 'release_date', '#date5')
+                        getOneAttributeFromItem(r, 'director', '#director5')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate5')
+                    }
+                });
+    }else {
+    if (($(".t4").css("display") == "none") && ($(".t6").css("display") == "none")){
+      $(".t5").css("display", "none");
+      $("#information5").css("display", "none");
+      $(".secondblock").css("height", "500px");
+    }
+    else{
+      $(".t5").css("display", "none");
+      $("#information5").css("display", "none");
+    }
+  }
+  })
+
+  $("#p6").click(function(){
+    if (($(".t6").css("display") == "none")){
+    $(".t6").css("display", "block");
+    $(".secondblock").css("height", "850px");
+    $(".favourite#c6").css("display", "flex");
+    $("#information6").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "ea660b10-85c4-4ae3-8a5f-41cea3648e3e")
+                        getOneAttributeFromItem(r, 'description', '#description6')
+                        getOneAttributeFromItem(r, 'release_date', '#date6')
+                        getOneAttributeFromItem(r, 'director', '#director6')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate6')
+                    }
+                });
+    }else {
+    if (($(".t4").css("display") == "none") && ($(".t5").css("display") == "none")){
+      $(".t6").css("display", "none");
+      $("#information6").css("display", "none");
+      $(".secondblock").css("height", "500px");
+    }
+    else{
+      $(".t6").css("display", "none");
+      $("#information6").css("display", "none");
+    }
+  }
+  })
+
+  $("#p7").click(function(){
+    if (($(".t7").css("display") == "none")){
+    $(".t7").css("display", "block");
+    $(".thirdblock").css("height", "1100px");
+    $(".favourite#c7").css("display", "flex");
+    $("#information7").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "4e236f34-b981-41c3-8c65-f8c9000b94e7")
+                        getOneAttributeFromItem(r, 'description', '#description7')
+                        getOneAttributeFromItem(r, 'release_date', '#date7')
+                        getOneAttributeFromItem(r, 'director', '#director7')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate7')
+                    }
+                });
+    }else {
+    if (($(".t8").css("display") == "none") && ($(".t9").css("display") == "none")){
+      $(".t7").css("display", "none");
+      $("#information7").css("display", "none");
+      $(".thirdblock").css("height", "500px");
+    }
+    else{
+      $(".t7").css("display", "none");
+      $("#information7").css("display", "none");
+    }
+  }
+  })
+
+  $("#p8").click(function(){
+    if (($(".t8").css("display") == "none")){
+    $(".t8").css("display", "block");
+    $(".thirdblock").css("height", "1100px");
+    $(".favourite#c8").css("display", "flex");
+    $("#information8").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "ebbb6b7c-945c-41ee-a792-de0e43191bd8")
+                        getOneAttributeFromItem(r, 'description', '#description8')
+                        getOneAttributeFromItem(r, 'release_date', '#date8')
+                        getOneAttributeFromItem(r, 'director', '#director8')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate8')
+                    }
+                });
+    }else {
+    if (($(".t7").css("display") == "none") && ($(".t9").css("display") == "none")){
+      $(".t8").css("display", "none");
+      $("#information8").css("display", "none");
+      $(".thirdblock").css("height", "500px");
+    }
+    else{
+      $(".t8").css("display", "none");
+      $("#information8").css("display", "none");
+    }
+  }
+  })
+
+  $("#p9").click(function(){
+    if (($(".t9").css("display") == "none")){
+    $(".t9").css("display", "block");
+    $(".thirdblock").css("height", "1100px");
+    $(".favourite#c9").css("display", "flex");
+    $("#information9").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "ff24da26-a969-4f0e-ba1e-a122ead6c6e3")
+                        getOneAttributeFromItem(r, 'description', '#description9')
+                        getOneAttributeFromItem(r, 'release_date', '#date9')
+                        getOneAttributeFromItem(r, 'director', '#director9')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate9')
+                    }
+                });
+    }else {
+    if (($(".t7").css("display") == "none") && ($(".t8").css("display") == "none")){
+      $(".t9").css("display", "none");
+      $("#information9").css("display", "none");
+      $(".thirdblock").css("height", "500px");
+    }
+    else{
+      $(".t9").css("display", "none");
+      $("#information9").css("display", "none");
+    }
+  }
+  })
+
+  $("#p10").click(function(){
+    if (($(".t10").css("display") == "none")){
+    $(".t10").css("display", "block");
+    $(".fourthblock").css("height", "940px");
+    $(".favourite#c10").css("display", "flex");
+    $("#information10").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "0440483e-ca0e-4120-8c50-4c8cd9b965d6")
+                        getOneAttributeFromItem(r, 'description', '#description10')
+                        getOneAttributeFromItem(r, 'release_date', '#date10')
+                        getOneAttributeFromItem(r, 'director', '#director10')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate10')
+                    }
+                });
+    }else {
+    if (($(".t11").css("display") == "none") && ($(".t12").css("display") == "none")){
+      $(".t10").css("display", "none");
+      $("#information10").css("display", "none");
+      $(".fourthblock").css("height", "500px");
+    }
+    else{
+      $(".t10").css("display", "none");
+      $("#information10").css("display", "none");
+    }
+  }
+  })
+
+  $("#p11").click(function(){
+    if (($(".t11").css("display") == "none")){
+    $(".t11").css("display", "block");
+    $(".fourthblock").css("height", "940px");
+    $(".favourite#c11").css("display", "flex");
+    $("#information11").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "dc2e6bd1-8156-4886-adff-b39e6043af0c")
+                        getOneAttributeFromItem(r, 'description', '#description11')
+                        getOneAttributeFromItem(r, 'release_date', '#date11')
+                        getOneAttributeFromItem(r, 'director', '#director11')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate11')
+                    }
+                });
+    }else {
+    if (($(".t10").css("display") == "none") && ($(".t12").css("display") == "none")){
+      $(".t11").css("display", "none");
+      $("#information11").css("display", "none");
+      $(".fourthblock").css("height", "500px");
+    }
+    else{
+      $(".t11").css("display", "none");
+      $("#information11").css("display", "none");
+    }
+  }
+
+  })
+
+  $("#p12").click(function(){
+    if (($(".t12").css("display") == "none")){
+    $(".t12").css("display", "block");
+    $(".fourthblock").css("height", "940px");
+    $(".favourite#c12").css("display", "flex");
+    $("#information12").css("display", "block");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "90b72513-afd4-4570-84de-a56c312fdf81")
+                        getOneAttributeFromItem(r, 'description', '#description12')
+                        getOneAttributeFromItem(r, 'release_date', '#date12')
+                        getOneAttributeFromItem(r, 'director', '#director12')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate12')
+                    }
+                });
+    }else {
+    if (($(".t10").css("display") == "none") && ($(".t11").css("display") == "none")){
+      $(".t12").css("display", "none");
+      $("#information12").css("display", "none");
+      $(".fourthblock").css("height", "500px");
+    }
+    else{
+      $(".t12").css("display", "none");
+      $("#information12").css("display", "none");
+    }
+  }
+  })
+
+  $("#p13").click(function(){
+    if (($(".t13").css("display") == "none")){
+    $(".t13").css("display", "block");
+    $("#information13").css("display", "block");
+    $(".favourite#c13").css("display", "flex");
+    $(".fifthblock").css("height", "1090px");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "112c1e67-726f-40b1-ac17-6974127bb9b9")
+                        getOneAttributeFromItem(r, 'description', '#description13')
+                        getOneAttributeFromItem(r, 'release_date', '#date13')
+                        getOneAttributeFromItem(r, 'director', '#director13')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate13')
+                    }
+                });
+  }
+  else {
+    if (($(".t14").css("display") == "none") && ($(".t15").css("display") == "none")){
+      $(".t13").css("display", "none");
+      $("#information13").css("display", "none");
+      $(".fifthblock").css("height", "500px");
+    }
+    else{
+      $(".t13").css("display", "none");
+      $("#information13").css("display", "none");
+    }
+  }
+  })
+
+  $("#p14").click(function(){
+    if ($(".t14").css("display") == "none"){
+    $(".t14").css("display", "block");
+    $("#information14").css("display", "block");
+    $(".favourite#c14").css("display", "flex");
+    $(".fifthblock").css("height", "1090px");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "758bf02e-3122-46e0-884e-67cf83df1786")
+                        getOneAttributeFromItem(r, 'description', '#description14')
+                        getOneAttributeFromItem(r, 'release_date', '#date14')
+                        getOneAttributeFromItem(r, 'director', '#director14')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate14')
+                    }
+                });
+  }
+  else {
+    if (($(".t13").css("display") == "none") && ($(".t15").css("display") == "none")){
+      $(".t14").css("display", "none");
+      $("#information14").css("display", "none");
+      $(".fifthblock").css("height", "500px");
+    }
+    else{
+      $(".t14").css("display", "none");
+      $("#information14").css("display", "none");
+    }
+  }
+  })
+
+  $("#p15").click(function(){
+    if (($(".t15").css("display") == "none")){
+    $(".t15").css("display", "block");
+    $("#information15").css("display", "block");
+    $(".favourite#c15").css("display", "flex");
+    $(".fifthblock").css("height", "1090px");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "2de9426b-914a-4a06-a3a0-5e6d9d3886f6")
+                        getOneAttributeFromItem(r, 'description', '#description15')
+                        getOneAttributeFromItem(r, 'release_date', '#date15')
+                        getOneAttributeFromItem(r, 'director', '#director15')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate15')
+                    }
+                });
+    }
+    else {
+      if (($(".t13").css("display") == "none") && ($(".t14").css("display") == "none")){
+      $(".t15").css("display", "none");
+      $("#information15").css("display", "none");
+      $(".fifthblock").css("height", "500px");
+      $(".favourite#c15").css("display", "none");
+      }
+      else{
+      $(".t15").css("display", "none");
+      $("#information15").css("display", "none");
+      $(".favourite#c15").css("display", "none");
+      }
+    }
+  })
+
+  $("#p16").click(function(){
+    if (($(".t16").css("display") == "none")){
+    $(".t16").css("display", "block");
+    $(".sixthblock").css("height", "1000px");
+    $("#information16").css("display", "block");
+    $(".favourite#c16").css("display", "flex");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "45db04e4-304a-4933-9823-33f389e8d74d")
+                        getOneAttributeFromItem(r, 'description', '#description16')
+                        getOneAttributeFromItem(r, 'release_date', '#date16')
+                        getOneAttributeFromItem(r, 'director', '#director16')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate16')
+                    }
+                });
+    }else {
+    if (($(".t17").css("display") == "none") && ($(".t18").css("display") == "none")){
+      $(".t16").css("display", "none");
+      $("#information16").css("display", "none");
+      $(".sixthblock").css("height", "500px");
+    }
+    else{
+      $(".t16").css("display", "none");
+      $("#information16").css("display", "none");
+    }
+  }
+  })
+
+  $("#p17").click(function(){
+    if (($(".t17").css("display") == "none")){
+    $(".t17").css("display", "block");
+    $(".sixthblock").css("height", "1000px");
+    $("#information17").css("display", "block");
+    $(".favourite#c17").css("display", "flex");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "5fdfb320-2a02-49a7-94ff-5ca418cae602")
+                        getOneAttributeFromItem(r, 'description', '#description17')
+                        getOneAttributeFromItem(r, 'release_date', '#date17')
+                        getOneAttributeFromItem(r, 'director', '#director17')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate17')
+                    }
+                });
+    }else {
+    if (($(".t16").css("display") == "none") && ($(".t18").css("display") == "none")){
+      $(".t17").css("display", "none");
+      $("#information17").css("display", "none");
+      $(".sixthblock").css("height", "500px");
+    }
+    else{
+      $(".t17").css("display", "none");
+      $("#information17").css("display", "none");
+    }
+  }
+  })
+
+  $("#p18").click(function(){
+    if (($(".t18").css("display") == "none")){
+    $(".t18").css("display", "block");
+    $(".sixthblock").css("height", "1000px");
+    $("#information18").css("display", "block");
+    $(".favourite#c18").css("display", "flex");
+    $.ajax({
+      type:'GET',
+      url: 'https://ghibliapi.herokuapp.com/films',
+                    success:function(data){
+                        // similar to enumerate in python
+                        var r = getOneItemById(data, "578ae244-7750-4d9f-867b-f3cd3d6fecf4")
+                        getOneAttributeFromItem(r, 'description', '#description18')
+                        getOneAttributeFromItem(r, 'release_date', '#date18')
+                        getOneAttributeFromItem(r, 'director', '#director18')
+                        getOneAttributeFromItem(r, 'rt_score', '#rate18')
+                    }
+                });
+    }else {
+    if (($(".t16").css("display") == "none") && ($(".t17").css("display") == "none")){
+      $(".t18").css("display", "none");
+      $("#information18").css("display", "none");
+      $(".sixthblock").css("height", "500px");
+    }
+    else{
+      $(".t18").css("display", "none");
+      $("#information18").css("display", "none");
+    }
+  }
+  });
+
+  $("#c1").click(function(){
+    window.location.href = "/favourite/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+  });
+
+  
+  $("#c2").click(function(){
+    window.location.href = "/favourite/12cfb892-aac0-4c5b-94af-521852e46d6a"
+  });
+
+  $("#c3").click(function(){
+    window.location.href = "/favourite/cd3d059c-09f4-4ff3-8d63-bc765a5184fa"
+  });
+
+  $("#c4").click(function(){
+    window.location.href = "/favourite/67405111-37a5-438f-81cc-4666af60c800"
+  });
+
+  $("#c5").click(function(){
+    window.location.href = "/favourite/58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+  });
+
+  $("#c6").click(function(){
+    window.location.href = "/favourite/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+  });
+
+  $("#c7").click(function(){
+    window.location.href = "/favourite/4e236f34-b981-41c3-8c65-f8c9000b94e7"
+  });
+
+  $("#c8").click(function(){
+      window.location.href = "/favourite/ebbb6b7c-945c-41ee-a792-de0e43191bd8"
+    });
+
+  $("#c9").click(function(){
+      window.location.href = "/favourite/ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+    });
+
+
+  $("#c10").click(function(){
+    window.location.href = "/favourite/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+  });
+
+  $("#c11").click(function(){
+    window.location.href = "/favourite/dc2e6bd1-8156-4886-adff-b39e6043af0c"
+  });
+
+
+  $("#c12").click(function(){
+    window.location.href = "/favourite/90b72513-afd4-4570-84de-a56c312fdf81"
+  });
+
+
+  $("#c13").click(function(){
+    window.location.href = "/favourite/112c1e67-726f-40b1-ac17-6974127bb9b9"
+  });
+
+
+  $("#c14").click(function(){
+    window.location.href = "/favourite/758bf02e-3122-46e0-884e-67cf83df1786"
+  });
+
+  $("#c15").click(function(){
+    window.location.href = "/favourite/2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
+  });
+
+
+  $("#c16").click(function(){
+    window.location.href = "/favourite/45db04e4-304a-4933-9823-33f389e8d74d"
+  });
+
+
+  $("#c17").click(function(){
+    window.location.href = "/favourite/5fdfb320-2a02-49a7-94ff-5ca418cae602"
+  });
+
+  $("#c18").click(function(){
+    window.location.href = "/favourite/578ae244-7750-4d9f-867b-f3cd3d6fecf4"
+  });
+
+
+
+  if (document.cookie != ""){
+  	$("#Login").css("display", "none");
+  }
+
+  if (document.cookie == ""){
+  	$("#Account").css("display", "none");
+  }
+
+  function getOneItemById(item_list, film_id) {
+    /*
+     * Returns single item given single id
+     * 
+     * @return Item
+     */ 
+     for (var i = 0; i < item_list.length; i++) {
+      if (item_list[i].id == film_id){
+        return item_list[i];
+        }  
+      }
+     };
+  function getOneAttributeFromItem(item, attribute, addte) {
+    /*
+     * Returns a single attribute from a given item.
+     * 
+     * @return a string
+     */ 
+    if (attribute == 'rt_score'){
+      var s = parseInt(item[attribute]);
+      s = s/10;
+      s = String(s);
+      $(addte).text(s);
+    }
+    else{
+     $(addte).text(item[attribute]);
+    }
+  };
+</script>
+</body></html>
